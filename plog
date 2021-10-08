@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+h1{
+    color:#ff9900;
+    font: size 50px;
+    background: color #fdc35818;
+    border: double#dad14fe7;
+    width:180px;
+}
+h2{
+    color:#ff9900;
+    border: 2px dotted#dad14fe7;
+    width:50px;
+}
+h3{
+    color:#ff9900;
+}
+h4{
+    color:#ff9900;
+}
+h5{
+    width:20;
+}
+h6{
+    width:20;
+}
+ </style>
+</head>
+<body>
+    <h1>佐藤梨紗子 </h1>
+    <h2 id="h1">趣味</h2>
+    <h3>*フラワーアレンジメント*</h3> 
+    <img src="S__93552645.jpg"  width="100px">
+    <h5>花籠</h5>
+    <h4>*カフェ巡り*</h4>
+    <img src="S__93552643.jpg" width="100px">
+    <h6>ソフトクリーム</h6>
+</body>
+</html>
