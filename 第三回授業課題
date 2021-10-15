@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<script src="js/jquery-2.1.3.min.js"></script>
+<link rel="stylesheet" href="css/sample.css">
+<title>おみくじ</title>
+</head>
+<body>
+
+<header>
+    <h1>おみくじ</h1>
+</header>
+
+<main>
+    <ul>
+        <li id="pull">おみくじボタン</li>
+    </ul>
+       <p id="echo"></p>
+
+  </main>
+
+<script>
+
+const echo = document.querySelector("#echo");
+echo.innerHTML = '<img src="omikuji.png">';
+
+ // clickイベントのブロック
+const pull = document.querySelector("#pull");
+pull.onclick = function(){
+ 　　
+    const pull = Math.ceil(Math.random() * 5);
+    
+    if (pull == 1) {
+        const echo = document.querySelector("#echo");
+        echo.innerHTML = '<img src="daikitch.png">';
+    }
+    if (pull == 2) {
+        const echo = document.querySelector("#echo");
+        echo.innerHTML = '<img src="chukichi.png">';
+    }
+    if (pull == 3) {
+        const echo = document.querySelector("#echo");
+        echo.innerHTML = '<img src="shokichi.png">';
+    }
+    if (pull == 4) {
+        const echo = document.querySelector("#echo");
+        echo.innerHTML = '<img src="kichi.png">';
+    }
+    if (pull == 5) {
+        const echo = document.querySelector("#echo");
+        echo.innerHTML = '<img src="kyo.png">';
+    }
+}
+
+
+　
+
+
+</script>
+</body>
+</html>
